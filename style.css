@@ -1,0 +1,496 @@
+body{
+    scroll-behavior: smooth;
+    background-color: #27301e;
+}
+
+section {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color: #27301e;
+}
+
+.four {
+    width: 100vw;
+    height: 100vh;
+    /*position: absolute;*/
+    background-image: url("four.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.filter {
+    width: 100vw;
+    height: 100vh;
+    background-color: #50603D;
+    opacity: 50%;
+}
+
+@font-face {
+    font-family: "plaster";
+    src: url("/fonts/Fascinate.ttf");
+}
+
+@font-face {
+    font-family: "lisong";
+    src: url("https://bigfontsite.com/download/lisong-pro.html");
+}
+h1{
+    font-family: oskar-inline, sans-serif;
+    font-size: 600px;
+    margin: 0;
+    color: #A54D19;
+    margin-left: 350px;
+    opacity: 100%;
+    position: absolute;
+    top: -50px;
+}
+
+h2 {
+    font-family: "LiSong Pro";
+    font-weight: lighter;
+
+    font-size: 72px;
+    position: absolute;
+    top: 350px;
+    left: 800px;
+    color: #A54D19;
+    opacity: 100%;
+
+}
+#for{
+    font-family: "LiSong Pro";
+    font-weight: lighter;
+    font-size: 72px;
+    position: absolute;
+    top: 430px;
+    left: 800px;
+    color: #A54D19;
+}
+
+.point {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 545px;
+    left: 1097px;
+    background-color: #A54D19;
+    border-radius: 50%;
+}
+#pumpkin{
+    height: 30vh;
+    width: 100vw;
+    background-color: #27301e;
+    font-family: "LiSong Pro", sans-serif;
+    font-weight: bold;
+    font-variant-caps: small-caps;
+    color: #9f916e;
+    text-decoration: underline;
+    font-size: 100px;
+    text-align: center;
+    padding-top: 10%;
+
+}
+/*#line{*/
+/*    width: 30vw;*/
+/*    height: 10px;*/
+/*    border-radius: 5%;*/
+/*    background-color: #9f916e;*/
+/*    display: table-cell;*/
+/*}*/
+.container2{
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    left: 20vw;
+    background-color: #27301e;
+    margin-top: 50px;
+    opacity: 80%;
+
+}
+ #s2 {
+    width: 100vw;
+    height: 100vh;
+    background-color: #27301e;
+     display: flex;
+     flex-direction: column;
+}
+ .long{
+
+   /*padding-top: 3%;*/
+   /* display: flex;*/
+     position: relative;
+     height: 30%;
+     overflow: hidden;
+
+ }
+.short{
+
+    padding-top: 50px;
+    /* display: flex;*/
+    position: relative;
+    height: 30%;
+    overflow: hidden;
+
+}
+#cut1, #cut2, #cut3 {
+    /*display: inline;*/
+     width: 400px;
+     max-height: 100%;
+     background-image: url("cut1.jpg");
+    border-radius: 5%;
+    /*opacity: 75%;*/
+    position: absolute;
+
+ }
+
+#cut1{
+    /*left: 800px;*/
+    /*position: absolute;*/
+    left: 40px;
+}
+
+#cut2{
+    left: 150px;
+}
+#cut3{
+    left: 280px;
+
+}
+p {
+    font-family: "LiSong Pro", serif;
+    font-weight: lighter;
+    color: #A54D19;
+    font-size: 52px;
+    left: 0px;
+    /*position: absolute;*/
+    margin: 0px;
+    white-space: nowrap;
+    padding-top: 5%;
+    text-shadow: 0px 0px 7px #A54D19 ;
+
+}
+.col-container{
+    width: 60vw;
+    height: 100vh;
+    position: relative;
+
+
+}
+#col, #col1, #col2{
+ max-height: 80vh;
+    position: absolute;
+    top: 10%;
+    left: 10vw;
+
+}
+#col{
+    box-shadow: 7px 7px 0px 5px rgba(0,0,0,0.3);
+
+}
+#col1{
+    /*transform: translateX(100px);*/
+}
+
+#s3 {
+    width: 100vw;
+    height: 100vh;
+    background-color: #27301e;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.text-container{
+
+    max-height: 50vh;
+    width: 20vw;
+    margin: auto;
+    margin-left: 10px;
+    /*background-color: #EA9860;*/
+    background-color: #9f916e;
+    opacity: 90%;
+    border-radius: 5%;
+    padding: 4%;
+    box-shadow: 0px 0px 30px #A54D19;
+    display:table;
+
+}
+
+#text{
+    /*width: 20vw;*/
+    line-height: 1.4;
+    font-family: "LiSong Pro";
+    font-weight: bolder;
+    text-align: center;
+
+}
+.s3flex {
+
+
+}
+.info-con{
+    height: 100%;
+  width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    /*left: 10vw;*/
+    /*top: 10vh;*/
+}
+
+.info{
+    max-height: 100vh;
+    max-width: 100vw;
+    position: absolute;
+    opacity: 80%;
+    cursor: cell;
+
+    /*left: 10vw;*/
+    /*top: 10vh;*/
+}
+/*.info {*/
+/*    max-height: 80%;*/
+/*    max-width: 80%;*/
+/*    position: absolute;*/
+/*    left: 10vw;*/
+/*    top: 10vh;*/
+/*}*/
+.data{
+    display: none;
+}
+.hide{
+    display: block;
+}
+div.box{
+    opacity: 0%;
+}
+.spagbox{
+width: 70px;
+    height: 70px;
+    background-color: black;
+    opacity: 50%;
+    left: 47em;
+    top: 36em;
+    position: absolute;
+}
+.butntbox{
+    width: 70px;
+    height: 70px;
+    background-color: black;
+    opacity: 50%;
+    left: 55em;
+    top: 27em;
+    position: absolute;
+}
+.btcpbox{
+    width: 70px;
+    height: 70px;
+    background-color: black;
+    opacity: 50%;
+    left: 32em;
+    top: 17em;
+    position: absolute;
+}
+.acornbox{
+    width: 70px;
+    height: 70px;
+    background-color: black;
+    opacity: 50%;
+    left: 37em;
+    top: 12em;
+    position: absolute;
+}
+.confbox{
+    width: 70px;
+    height: 70px;
+    background-color: black;
+    opacity: 50%;
+    left: 30em;
+    top: 27em;
+    position: absolute;
+}
+.hokbox{
+    width: 70px;
+    height: 70px;
+    background-color: black;
+    opacity: 50%;
+    left: 53em;
+    top: 13em;
+    position: absolute;
+}
+.pattybox{
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    opacity: 50%;
+    left: 32em;
+    top: 31em;
+    position: absolute;
+}
+.babybox{
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    opacity: 50%;
+    left: 35em;
+    top: 34em;
+    position: absolute;
+}
+.delbox{
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    opacity: 50%;
+    left: 39em;
+    top: 36em;
+    position: absolute;
+}
+.muscatbox{
+    width: 70px;
+    height: 70px;
+    background-color: black;
+    opacity: 50%;
+    left: 55em;
+    top: 20em;
+    position: absolute;
+}
+.buffer{
+    width: 100vw;
+    height: 30vh;
+    background-color: #27301e;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+.not{
+    font-family: "LiSong Pro", sans-serif;
+    /*font-variant-caps: small-caps;*/
+    color: #A54D19;
+    /*text-decoration: underline;*/
+    font-size: 32px;
+    text-align: center;
+}
+#s5{
+    width: 100vw;
+    height: 100vh;
+    background-color: #27301e;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    /*top: -200px;*/
+    overflow: hidden;
+    /*overflow: scroll ;*/
+
+
+}
+#call-con{
+    height: 100vh;
+    width: 50vw;
+    background-color: #27301e;
+    display: flex;
+    flex-direction: column;
+
+
+}
+#vanya, #vanya1 {
+    /*position: absolute;*/
+    /*height: 100%;*/
+    height: 100%;
+    /*width: 50%;*/
+    /*top: 3000px;*/
+    /*top: -400px;*/
+    /*padding-right: 10%;*/
+    /*filter: blur(8px);*/
+    /*filter:gray(0.2);*/
+    filter:grayscale(20%);
+    /*z-index: 10000;*/
+}
+#vanya1{
+
+}
+#call1, #call2{
+    height: 50%;
+    width: 100%;
+
+}
+#call2{
+    background-color: #9f916e;
+    /*filter: blur(8px);*/
+    box-shadow: 0px 0px 30px #A54D19;
+    border-radius: 5%;
+
+}
+@keyframes blur {
+    0%,
+    90% {
+        -webkit-filter: blur(0px);
+        -moz-filter: blur(0px);
+        -o-filter: blur(0px);
+        -ms-filter: blur(0px);
+    }
+    50% {
+        -webkit-filter: blur(50px);
+        -moz-filter: blur(50px);
+        -o-filter: blur(50px);
+        -ms-filter: blur(50px);
+    }
+}
+#come, #see{
+
+    font-family: "LiSong Pro", serif;
+    font-weight: lighter;
+    color: #A54D19;
+    font-size: 52px;
+    text-shadow: 0px 0px 7px #A54D19;
+
+
+}
+.anim{
+    animation: blur 3s ease 0s;
+}
+.time{
+    /*display: table;*/
+    height: 30vh;
+    width: 100vw;
+    background-color: #27301e;
+    font-family: "LiSong Pro", sans-serif;
+    /*font-weight: bold;*/
+    font-variant-caps: small-caps;
+    color: #9f916e;
+    /*text-decoration: underline;*/
+    font-size: 32px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+    /*display: table-cell;*/
+    /*height: 30vh;*/
+    /*width: 100vw;*/
+    /*background-color: #27301e;*/
+    /*font-family: "LiSong Pro", sans-serif;*/
+    /*!*font-weight: bold;*!*/
+    /*!*font-variant-caps: small-caps;*!*/
+    /*color: #A54D19;*/
+    /*!*text-decoration: underline;*!*/
+    /*font-size: 32px;*/
+    /*text-align: center;*/
+    /*padding-top: 10%;*/
+
+/*#our{*/
+/*!*padding-top: 30px;*!*/
+/*}*/
+/*#tue, #10{*/
+
+/*}*/
+
+/*div.info1:hover{*/
+/*    display: block;*/
+/*    opacity: 0%;*/
+/*}*/
